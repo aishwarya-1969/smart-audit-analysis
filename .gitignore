@@ -1,5 +1,38 @@
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+
+# Virtual environments
 .venv/
-*.db
+venv/
+env/
+
+# Secrets and environment variables
 .env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases and sensitive data
+*.db
+*.sqlite
+*.sqlite3
+data/
+uploads/
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+tempCodeRunnerFile.py

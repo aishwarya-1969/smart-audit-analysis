@@ -1,3 +1,4 @@
+
 # SmartAudit AI - Smart Audit Analysis for Finance
 
 ## Quick start: run app.py
@@ -54,3 +55,7 @@ CSV: required `amount`; optional `txn_id, date, vendor, employee, category, appr
 
 ## Historical data (new)
 Open "Historical vs Current", upload approved past transactions (Admin/Auditor), then analyse a new CSV. Overlapping rows are skipped, history is never invented, and comparisons need 5+ past payments per vendor and 3+ months of history. Tests: `cd backend && python tests/test_historical.py`.
+
+# smart-audit-analysis
+A Smart Audit Analysis application that analyzes financial data, identifies risks, and compares historical performance.
+
